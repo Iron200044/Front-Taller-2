@@ -1,7 +1,4 @@
-const API_URL =
-  window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1"
-    ? "http://localhost:3000/items"
-    : "/api/items";
+const API_URL = "/api/items"
 
 console.log("JS cargado");
 console.log("API_URL:", API_URL);
